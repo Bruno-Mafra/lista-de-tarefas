@@ -1,0 +1,20 @@
+.App{
+    padding: 0 15rem;
+}
+
+@media (max-width: 1200px) {
+    .App{
+        padding: 0;
+    }
+}
+
+.main {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}

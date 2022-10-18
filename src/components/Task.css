@@ -1,0 +1,78 @@
+.task {
+  background-color: rgb(47, 163, 172);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.taskInputDiv {
+  display: flex;
+  width: 75%;
+
+}
+
+.taskInput {
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 3px;
+}
+
+.emptyTask:focus {
+  outline: 2px solid red;
+}
+
+.task:hover{
+  background-color: rgb(56, 202, 212);
+}
+
+.buttons {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.completeButton {
+  background-color: rgb(95, 226, 77);
+  border-radius: 5px;
+  border: none;
+  height: 75%;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.removeButton {
+  background-color: rgb(221, 54, 54);
+  border-radius: 5px;
+  border: none;
+  height: 75%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.editButton {
+  background-color: rgb(168, 164, 164);
+  border-radius: 5px;
+  border: none;
+  height: 75%;
+  cursor: pointer;
+}
+
+.completeButton:hover {
+  background-color: rgb(93, 238, 74);
+}
+
+.removeButton:hover{
+  background-color: rgb(248, 0, 0);
+}
+
+span {
+  margin: 0 auto;
+}
+
+.crossedOut {
+  text-decoration: line-through;
+}
